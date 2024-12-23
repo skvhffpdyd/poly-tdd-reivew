@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-12-23T03:25:22" hostname="DESKTOP-93HR1OF" time="0.082">
+  <properties/>
+  <testcase name="run 함수 실행" classname="CalculatorTest" time="0.017"/>
+  <testcase name="1+1 실행" classname="CalculatorTest" time="0.051"/>
+  <testcase name="단항식 실행" classname="CalculatorTest" time="0.001"/>
+  <testcase name="run 함수 단항식 체크" classname="CalculatorTest" time="0.003"/>
+  <testcase name="run 함수 다항식 체크" classname="CalculatorTest" time="0.006"/>
+  <testcase name="테스트 함수 실행" classname="CalculatorTest" time="0.003"/>
+  <system-out><![CDATA[test1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
