@@ -36,7 +36,7 @@ public class Calc {
                 expList.set(i, result + "");
                 expList.remove(i - 1);
                 expList.remove(i); // 원래 i+1이었지만 제거 후 위치가 앞으로 이동함
-                i--; // 연산 후 한 단git계 앞에서 계속 진행
+                i--; // 연산 후 한 단계 앞에서 계속 진행
             } else if (expList.get(i).equals("/")) {
                 int result = Integer.parseInt(expList.get(i - 1)) / Integer.parseInt(expList.get(i + 1));
                 expList.set(i, result + "");
@@ -47,7 +47,7 @@ public class Calc {
         }
 
         // 나머지 연산 (+, -) 처리
-        for (int i = expList.size() - 1; i >= 0; i--) {
+        for (int i = 0; i < expList.size(); i++) {
             if (expList.get(i).equals("+")) {
                 int result = Integer.parseInt(expList.get(i - 1)) + Integer.parseInt(expList.get(i + 1));
                 expList.set(i, result + "");
